@@ -35,7 +35,7 @@ function shouldRandomize() {
   var currentMinutes = currentDate.getMinutes();
 
 
-  if (currentHour >= 8 && currentHour < 16) {
+  if (currentHour >= 8 && currentHour < 14) {
     var randomIndex = getRandomIndex(textArray.length);
     return textArray[randomIndex] + " is being kicked!";
   } else {
