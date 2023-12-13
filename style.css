@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  background-color: rgb(40, 44, 53);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+  
+  #randomText {
+  font-size: 36px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  user-select: none;
+}
+  
+  #randomizeButton {
+  height: 30px;
+  font-size: x-large;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(101, 109, 115);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  margin-top: 200px;
+  user-select: none;
+}
+
+#revealButton{
+  height: 30px;
+  font-size: x-large;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(101, 109, 115);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  margin-top: 200px;
+  user-select: none;
+}
+
+#randomizeButton:active{
+  transform: translateY(10px);
+}
+
+  
+#revealButton:active{
+  transform: translateY(10px);
+}
+
+
+.transform-transition {
+  transition: transform 0.1s ease-in-out;
+}
+
+
+
+
