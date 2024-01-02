@@ -1,5 +1,9 @@
 var textArray = [
   "Ryker",
+  "Tyler",
+  "Ryan",
+  "Jonathan",
+  "Aditya",
 ];
 
 function getRandomIndex(max) {
