@@ -1,5 +1,6 @@
 var textArray = [
   "Ryker",
+  "Tyler",
   "Ryan",
   "Jonathan",
   "Aditya",
