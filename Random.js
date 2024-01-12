@@ -1,5 +1,4 @@
 var textArray = [
-  "Tyler",
   "Jonathan",
   "Aditya",
   "Ryan",
